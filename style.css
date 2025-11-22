@@ -11,6 +11,34 @@ body{
 .fourth{
     padding-left: 300px;
     padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.first-text,
+.second-text{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.content button{
+    background-color: blue; 
+    color: aliceblue; 
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+    box-shadow: none;
+    outline: none;
+    border-style: solid;
+}
+
+.hero-text{
+    text-align: left;
 }
 
 .first{
@@ -31,16 +59,17 @@ body{
     font-weight: 900;
 }
 
-.secont-text{
+.secont-text p{
     font-size: 18px; 
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-right: auto;
+    width: 100%;
 }
 
 .logo{
@@ -93,6 +122,7 @@ li{
 
 .third{
     background-color: #e5e7eb;
+
 }
 
 .third p{
@@ -101,4 +131,48 @@ li{
     font-weight: 300;
     font-style: italic;
 }
+
+.CTA{
+    background-color: rgba(70, 70, 243, 0.753);
+    border-radius:7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 50px;
+    width: 100%;
+}
+
+.sign-up{
+    border: solid #ffffff;
+    border-style: none;
+    border-radius: 4px;
+    align-self: center;
+    margin-left: auto;
+    background-color:rgba(70, 70, 243, 0.753);
+}
+
+.CTA h3,
+.CTA p{
+    margin: 10px;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.footer{
+    display: flex; 
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+
 
